@@ -1,0 +1,30 @@
+.card-text {
+  max-height: 50px;
+  overflow: auto;
+}
+
+.card-text::-webkit-scrollbar {
+  width: 4px;
+}
+
+.card-text::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  background: #fff;
+  padding: 20px 0;
+}
+
+.fav {
+  cursor: pointer;
+}
+
+.fav:hover {
+  height: 22px;
+  width: 22px;
+}
